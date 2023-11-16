@@ -1,6 +1,6 @@
-//MARK: ①セグエで画面遷移ができるようにしよう
+//MARK: ①セグエでResultViewControllerへ画面遷移ができるようにしよう
 //MARK: ②prepareForSegueで値の受け渡しができるようにしよう
-//MARK: ③dismissで前の画面に戻ることができるようにしよう
+//MARK: ③ResultViewControllerでボタンを押した時にdismissで前の画面に戻ることができるようにしよう
 
 import UIKit
 
