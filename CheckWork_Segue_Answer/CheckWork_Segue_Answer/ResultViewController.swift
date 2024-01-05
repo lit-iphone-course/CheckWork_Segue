@@ -19,7 +19,7 @@ class ResultViewController: UIViewController {
     }
 
     @IBAction func back() {
-        //前の画面に戻る
+        //MARK: ③前の画面に戻る
         self.dismiss(animated: true, completion: nil)
     }
 }

@@ -34,12 +34,12 @@ class ViewController: UIViewController {
         if count <= 0 {
             timer.invalidate()
             
-            // Segueを使って画面遷移する処理はここに書く
+            //MARK: ①Segueを使って画面遷移する処理はここに書く
             performSegue(withIdentifier: "toResult", sender: nil)
         }
     }
     
-    //画面遷移するときに呼ばれるメソッド
+    //MARK: ②画面遷移するときに呼ばれるメソッド
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // 画面遷移先はResultViewController
         // 画面遷移時の値受け渡しの処理はここに書く
